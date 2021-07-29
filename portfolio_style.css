@@ -1,0 +1,118 @@
+:root
+{
+    --link-color: #C9F900
+}
+body {font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 200%;
+    margin : 0px;
+
+}
+hr {
+    margin : 1rem 0rem;
+}
+.container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.center-container {
+    max-width: 500px;
+    margin : auto;
+}
+.link {
+    text-decoration: none;
+    padding : 0.2rem 2rem ;
+    margin : 0.5rem;
+    background-color: #0A0A0A;
+    color : var(--link-color) ;
+    
+}
+.primary-link{
+border-radius : 0.3rem;
+}
+
+.secondary-link
+{ border-radius : 0.3rem;
+color: white;}
+
+.non-bullet {
+    list-style : none;
+}
+
+.list-item-inline{
+    display: inline-block;
+    list-style : none;
+    padding : 0rem 0.5rem;
+}
+
+.navigation{
+    color :#0A0A0A;
+    border : solid 1px #0A0A0A;
+    padding-top: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+    
+}
+
+.hero{
+    padding: 2rem;
+    
+}
+
+.hero .hero-image
+{
+    max-width: 550px;
+    display: block;
+    margin : auto;
+}
+
+.hero .hero-heading{
+    padding : 2rem;
+    border : solid 2px #0A0A0A;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius:  2rem;
+    text-align : center;
+}
+.section{
+    padding : 2rem;
+    margin : 2rem;
+}
+.section h1{
+    text-align:center;
+    
+}
+
+.section-white {
+    border : solid 2px #0A0A0A;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.section-black{
+    color : var(--link-color);
+    background-color: #0A0A0A;
+    border : solid 2px white;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.footer{
+    padding: 2rem 1rem;
+    text-align:center;
+}
+
+.footer .footer-heading{
+    font-weight: bold;
+    
+}
