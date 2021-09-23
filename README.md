@@ -1,5 +1,5 @@
 # Neog-camp-Lesson-3.
-Learning HTML and CSS.
+
 This is my portfolio website
 My Projects hosted on the site :-
 My first CLI App : This is a small quiz game about me built on repl.it 
